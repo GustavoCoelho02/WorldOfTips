@@ -26,8 +26,11 @@
         <div class="container-fluid">
             <div class="p-5"></div>
             <?php //print_r($_SESSION['searchList']);
+            include('../php/database.php');
             if (isset($_SESSION['searchList'])) {
+                console_log($_SESSION['searchList']);
                 foreach ($_SESSION['searchList'] as $list) {
+                    console_log($_SESSION['errors']);
                     echo $list;
                 }
             } else {
