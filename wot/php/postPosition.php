@@ -179,7 +179,7 @@ function tipOwner($user_id, $tip_id)
     $query = "SELECT * FROM tips where id = $tip_id and users_id = $user_id";
     $result = mysqli_query($con, $query);
     $data = mysqli_fetch_array($result);
-    if ($data != null) {
+    if (!empty($data)) {
         return true;
     } else {
         return false;
