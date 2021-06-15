@@ -102,23 +102,23 @@ function dataPositon()
                     
                     <div class='col-md-3'>
                     <div class='row justify-content-center'>
-                        <form action='php/avalier.php' method='post'>
+                        <form action='../php/avalier.php' method='post'>
                             <input type='hidden' name='avaliate' value='1'>
                             <input type='submit' class='btn aval' value=''>
                         </form>
-                        <form action='php/avalier.php' method='post'>
+                        <form action='../php/avalier.php' method='post'>
                             <input type='hidden' name='avaliate' value='2'>
                             <input type='submit' class='btn aval' value=''>
                         </form>
-                        <form action='php/avalier.php' method='post'>
+                        <form action='../php/avalier.php' method='post'>
                             <input type='hidden' name='avaliate' value='3'>
                             <input type='submit' class='btn aval' value=''>
                         </form>
-                        <form action='php/avalier.php' method='post'>
+                        <form action='../php/avalier.php' method='post'>
                             <input type='hidden' name='avaliate' value='4'>
                             <input type='submit' class='btn aval' value=''>
                         </form>
-                        <form action='php/avalier.php' method='post'>
+                        <form action='../php/avalier.php' method='post'>
                             <input type='hidden' name='avaliate' value='5'>
                             <input type='submit' class='btn aval' value=''>
                         </form>
@@ -194,22 +194,22 @@ function formLogued($situation)
                     <div class='container-fluid'>
                         <div class='row justify-content-center'>
                             <div class='exclude'>
-                                <form action='php/exclude.php' method='post'>
+                                <form action='../php/exclude.php' method='post'>
                                     <input type='submit' class='btn' style='background-color: #4f4f4f; color: #C7C7C7;' value='excluir'>
                                 </form>
                             </div>
                             <div class='edit'>
-                                <form action='views/edit.php' method='post'>
+                                <form action='edit.php' method='post'>
                                     <input type='submit' class='btn' style='background-color: #4f4f4f; color: #C7C7C7;' value='editar'>
                                 </form>
                             </div>
                             <div class='ban'>
-                                <form action='php/ban.php' method='post'>
+                                <form action='../php/ban.php' method='post'>
                                     <input type='submit' class='btn' style='background-color: #4f4f4f; color: #C7C7C7;' value='banir'>
                                 </form>
                             </div>
                             <div class='unban'>
-                                <form action='php/unban.php' method='post'>
+                                <form action='../php/unban.php' method='post'>
                                     <input type='submit' class='btn' style='background-color: #4f4f4f; color: #C7C7C7;' value='desbanir'>
                                 </form>
                             </div>
