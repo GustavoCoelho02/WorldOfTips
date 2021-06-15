@@ -30,7 +30,7 @@
             if (isset($_SESSION['searchList'])) {
                 console_log($_SESSION['searchList']);
                 foreach ($_SESSION['searchList'] as $list) {
-                    console_log($_SESSION['errors']);
+                    //console_log($_SESSION['errors']);
                     echo $list;
                 }
             } else {
