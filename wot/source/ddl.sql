@@ -30,5 +30,8 @@ create table avalies(
 	tips_id int,
 	users int,
 	aval int,
-	situation tinyint(1)
+	situation tinyint(1),
+	foreign key (users) references users(id),
+	foreign key (tips_id) references tips(id),
+	primary key (tips_id, users)
 )
